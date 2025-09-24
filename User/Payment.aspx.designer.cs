@@ -11,7 +11,7 @@ namespace Foodie.User
 {
 
 
-    public partial class Login
+    public partial class Payment
     {
 
         /// <summary>
