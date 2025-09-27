@@ -110,8 +110,14 @@ namespace Foodie.User
                     productId = (int)dr["ProductId"];
                     quantity = (int)dr["Quantity"];
                     // Update The Product Quantity
+                    //UpdateQuantity();
+                    // Update The Product Quantity End
 
                     //Delete Cart Item
+                    //DeleteCartItem();
+                    //Delete Cart Item End
+
+                    dt.Rows.Add(Utils.GetUniqueId, productId, quantity, (int)Session["userId"], "Pending", paymentId, Convert.ToDateTime(DateTime.Now));
                 }
                 dr.Close();
                 #endregion Getting Cart Items
