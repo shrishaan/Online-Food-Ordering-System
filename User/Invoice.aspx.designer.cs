@@ -11,7 +11,7 @@ namespace Foodie.User
 {
 
 
-    public partial class Checkout
+    public partial class Invoice
     {
     }
 }

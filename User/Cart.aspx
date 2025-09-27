@@ -85,7 +85,7 @@
                             </asp:LinkButton>
                         </td>
                         <td>
-    <asp:HyperLink ID="hlCheckout" runat="server" NavigateUrl="Checkout.aspx" CssClass="btn btn-success">
+    <asp:HyperLink ID="hlCheckout" runat="server" NavigateUrl="Payment.aspx" CssClass="btn btn-success">
         Checkout <i class="fa fa-arrow-circle-right ml-2"></i>
     </asp:HyperLink>
 </td>

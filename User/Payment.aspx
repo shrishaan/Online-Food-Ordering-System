@@ -179,8 +179,7 @@
                                                 TextMode="MultiLine" ValidationGroup="card"></asp:TextBox>
                                         </div>
                                         <div class="card-footer">
-                                            <asp:LinkButton ID="lbCardSubmit" runat="server" CssClass="subscribe btn btn-info btn-block shadow-sm"
-                                                ValidationGroup="card" OnClick="lbCardSubmit_Click" >Confirm Payment</asp:LinkButton>
+  <asp:LinkButton ID="lbCardSubmit" runat="server" CssClass="subscribe btn btn-info btn-block shadow-sm" ValidationGroup="card" OnClick="lbCardSubmit_Click" >Confirm Payment</asp:LinkButton>
                                         </div>
                                     </div>
                                 </div>
